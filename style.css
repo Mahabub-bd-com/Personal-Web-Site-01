@@ -1,0 +1,179 @@
+
+body {
+    font-family: poppins;
+    background-color: #0F172A;
+}
+
+/* Banner Section */
+.bannner-container {
+    background-color: white;
+}
+
+/* Navbar-Container Header */
+nav-link active {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid aqua;
+    position: absolute;
+}
+
+/* About Section First Row & Colum Section */
+.about-contrainer {
+    background-color: #0F172A;
+    text-align: justify;
+}
+
+/* Is education contrainer */
+.education-container {
+    background-color: #0F172A; /* About Education/Our Service/FAQ/YouTube Ok */
+}
+
+.project-container {
+    background-color: #0C4B33; /* Photo Gallery 1st Layer Ok */
+}
+
+.portfolio-container {
+    background-color: #0C4B33; /* Photo Gallery 2nd Layer Ok */
+}
+
+.management-contrainer {
+    background-color: #0C4B33; /* Natural Resources/Entertainment Galaxy/ Ok */
+}
+
+.form-container {
+    background-color: #0099cc; /* Form Ok */
+}
+
+.inner-form {
+    background-color: #0099cc; /* Form Ok */
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+/* Sub Menu Activity */
+.container-fluid ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #fff;
+    margin-left: -15px;
+}
+
+.container-fluid ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.container-fluid ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    border-radius: 0;
+    text-align: left;
+    list-style-type: none;
+}
+
+.container-fluid ul li:hover .sub-menu-1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar Sub Menu Color & Decoration */
+.container-fluid ul li:hover .sub-menu-1 ul li a:hover {
+    background-color: #45A049;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.nav-item {
+    margin-right: 30px !important;
+}
+
+/* Social Icon */
+.fa-facebook {
+    font-size: 50px;
+    color: white;
+}
+
+.fa-youtube {
+    font-size: 50px;
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+.fa-github {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+.fa-twitter {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+.fa-linkedin {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    color: rgb(220, 17, 17);
+    margin-left: 10px;
+}
+
+/* Social Link Decoration */
+.social-link a i:hover{
+    background-color: #0DCAF0;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.footer {
+    background-color: #061738;   /* color #110F0F; #23282D; #061738;  #0099cc; #0F172A; */
+}
+
+.social-link a{
+    text-decoration: none; /* এটার মানে হল social icon ar নিচের দাগ উঠে গেছে */
+  }
+
+/* FAQ Section Start */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .accordion:hover {                  /* .active, .accordion:hover */
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+/* FAQ Section End */
+
+/* Photo Gallery Text Style */
+.col-md-3 text-center, a, p{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
