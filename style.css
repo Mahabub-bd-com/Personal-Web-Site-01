@@ -175,5 +175,5 @@ nav-link active {
 .col-md-3 text-center, a, p{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
