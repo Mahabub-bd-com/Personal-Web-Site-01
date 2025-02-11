@@ -47,10 +47,12 @@ nav-link active {
 
 .form-container {
     background-color: #0099cc; /* Form Ok */
+    background-color: #0C4B33;
 }
 
 .inner-form {
     background-color: #0099cc; /* Form Ok */
+    background-color: #0C4B33;
 }
 
 .sub-menu-1 {
@@ -302,3 +304,12 @@ h2:hover{
 }
 
 /* end hover effect example code */
+
+/* Rough Media Query */
+
+/* @media screen and (max-width: 576px) {
+    .youtube{
+        grid-template-columns: repeat(1, 1fr);
+    }  
+} */
+
